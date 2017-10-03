@@ -8,13 +8,11 @@ tmp/
 **/debug
 
 ### goa ###
-app/
-client/
-tool/
-swagger/
-!public/swagger
-js/
-cover.html
+go/src/app/app/
+go/src/app/client/
+go/src/app/tool/
+go/src/app/swagger/
+go/src/app/js/
 
 # Created by https://www.gitignore.io/api/go,osx,vim,macos,windows,intellij,jetbrains,sublimetext,visualstudiocode
 
