@@ -101,7 +101,7 @@
   branch = "master"
   name = "github.com/spf13/cobra"
   packages = ["."]
-  revision = "0dacccfbaabc71b872087c1719c5380d3e185173"
+  revision = "83b1f039622680cde7a373eb1f85e10db8506673"
 
 [[projects]]
   name = "github.com/spf13/pflag"
@@ -119,13 +119,13 @@
   branch = "master"
   name = "golang.org/x/net"
   packages = ["context","websocket"]
-  revision = "0a9397675ba34b2845f758fe3cd68828369c6517"
+  revision = "a04bdaca5b32abe1c069418fb7088ae607de5bd0"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/tools"
   packages = ["go/ast/astutil"]
-  revision = "68e087e2a5786de2c035ed544b1c5a42e31f1933"
+  revision = "0b88a3aa0751a3accc5cadec90e6c9bc88e8219e"
 
 [solve-meta]
   analyzer-name = "dep"

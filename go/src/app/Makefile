@@ -54,7 +54,7 @@ PORT:=:8080
 NOSECURE:=false
 
 run:
-	go run server.go --env=$(ENV) --port=$(PORT) --noSecure=$(NOSECURE)
+	go run server.go
 
 build:
 	go build -o goapp .
@@ -69,8 +69,8 @@ lint:
 
 ##### Change package name ######
 
-BEFORE:=git.reco.combz.jp/gitbucket/git/Chikamori/plus-api
-AFTER:=git.reco.combz.jp/gitbucket/git/Chikamori/plus-api/go/src/app
+BEFORE:=app
+AFTER:=
 
 change-package:
 	which gorep || go get -v github.com/novalagung/gorep

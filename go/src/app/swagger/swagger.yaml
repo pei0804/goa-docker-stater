@@ -84,11 +84,11 @@ info:
   contact:
     email: peeeei0804@gmail.com
     name: pei
-    url: https://github.com/pei0804/goa-stater/issues
-  description: pei0804/goa-stater
+    url: https://github.com/pei0804/goa-docker-stater/issues
+  description: pei0804/goa-docker-stater
   license:
     name: MIT
-  title: pei0804/goa-stater
+  title: pei0804/goa-docker-stater
   version: ""
 paths:
   /examples/{id}:

@@ -1,4 +1,4 @@
-//go:generate goagen bootstrap -d github.com/pei0804/goa-stater/design
+//go:generate goagen bootstrap -d github.com/pei0804/goa-docker-stater/design
 
 package main
 
@@ -56,7 +56,7 @@ func (s *Server) mountMiddleware(noSecure bool, env string) {
 }
 
 func main() {
-	service := goa.New("pei0804/goa-stater")
+	service := goa.New("pei0804/goa-docker-stater")
 	var (
 		port     = flag.String("port", ":8080", "addr to bind")
 		env      = flag.String("env", "production", "実行環境 (production, staging, develop)")

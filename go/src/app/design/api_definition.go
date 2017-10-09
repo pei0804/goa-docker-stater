@@ -11,13 +11,13 @@ import (
 	. "github.com/goadesign/goa/design/apidsl"
 )
 
-var _ = API("pei0804/goa-stater", func() {
-	Title("pei0804/goa-stater")
-	Description("pei0804/goa-stater")
+var _ = API("pei0804/goa-docker-stater", func() {
+	Title("pei0804/goa-docker-stater")
+	Description("pei0804/goa-docker-stater")
 	Contact(func() {
 		Name("pei")
 		Email("peeeei0804@gmail.com")
-		URL("https://github.com/pei0804/goa-stater/issues")
+		URL("https://github.com/pei0804/goa-docker-stater/issues")
 	})
 	License(func() {
 		Name("MIT")
